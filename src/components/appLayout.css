@@ -1,0 +1,25 @@
+.overitem {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+.innerdiv{
+  background:rgba(0,0,0,0.4);
+  color:white;
+}
+input{
+  border-radius:10px;
+  outline:none;
+  border-bottom:2px solid cyan;
+}
+.cardalign {
+  background: black;
+  border-radius: 10px;
+  /* background: transparent; */
+  text-align: center;
+}
+.temp {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+}

@@ -1,0 +1,23 @@
+.cardalign {
+  display: flex;
+  justify-content: space-between;
+  left: -20vw;
+  width: 30vw;
+  text-align: center;
+  height: 30vh;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 10px 10px white;
+}
+.cardalign:hover {
+  background: black;
+  color: white;
+}
+.icon-cloud {
+  margin: 10px;
+  fill: orange;
+  font-size: 5rem;
+}
