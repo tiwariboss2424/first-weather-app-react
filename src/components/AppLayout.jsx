@@ -19,7 +19,6 @@ const AppLayout = () => {
     const res = await fetch(url);
     const resJson = await res.json();
     setShowdata(resJson.main);
-    console.log(resJson);
   };
 
   return (

@@ -4,6 +4,10 @@
   margin: 0px;
   padding: 0px;
 }
+.App {
+  width: 100vw;
+  overflow-x: hidden;
+}
 button {
   padding: 10px;
   font-weight: bolder;
