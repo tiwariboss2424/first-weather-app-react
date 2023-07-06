@@ -7,7 +7,7 @@ import Card1 from "./Card";
 
 const Api = {
   key: "0f61bf8a42be4d3802e36f3756c787cc",
-  base: "https://api.openweathermap.org/data/2.5/"
+  base: "https://api.openweathermap.org/data/2.5/",
 };
 
 const AppLayout = () => {
@@ -21,10 +21,7 @@ const AppLayout = () => {
     setShowdata(resJson.main);
     console.log(resJson);
   };
-  // const ShowIcon = () => {
-  //   if (showdata.temp > 30) setIcon(false);
-  //   else setIcon(true);
-  // };
+
   return (
     <>
       <div className="overitem">
@@ -34,7 +31,7 @@ const AppLayout = () => {
           style={{
             display: "flex",
             flexDirection: "row",
-            justifyContent: "space-around"
+            justifyContent: "space-around",
           }}
         >
           <input
@@ -48,7 +45,7 @@ const AppLayout = () => {
               width: "50vw",
               padding: "1rem",
               fontSize: "1.8rem",
-              textAlign: "left"
+              textAlign: "left",
             }}
           />
           <button type="submit" onClick={searchClicked}>
@@ -66,7 +63,7 @@ const AppLayout = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                justifyContent: "space-around"
+                justifyContent: "space-around",
               }}
             >
               <div>

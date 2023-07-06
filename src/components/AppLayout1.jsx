@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container, Form, Card, Button } from "react-bootstrap";
-import { snow } from "./img/snow.jpg";
-import { sunny } from "./img/sunny.jpg";
-import { supersunny } from "./img/supersunny.jpg";
+// import { snow } from "./img/snow.jpg";
+// import { sunny } from "./img/sunny.jpg";
+// import { supersunny } from "./img/supersunny.jpg";
 import Card1 from "./Card";
 
 import {
